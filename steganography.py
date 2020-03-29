@@ -115,7 +115,7 @@ def menu():
 if __name__ == "__main__":
     print("**********************MIDI Steganography**********************")
     exit='n'
-    while exit!='Y' and exit!='y':
+    while exit=='Y' or exit=='y':
         menu()
-        exit=input('\n**************If you want to exit please enter Y/y************* ')
+        exit=input('\n**************Do you want to continue? [Y/n]************* ')
     print('\nBye!')
