@@ -9,11 +9,12 @@ For instance, the file 'Hans Zimmer - Time' allows only a message of 48 bits. Mo
 
  * [tkinter](https://docs.python.org/3/library/tkinter.html): Its main purpose is to display a GUI to choose the MIDI file when necessary.
  * [py_midicsv](https://github.com/timwedde/py_midicsv): Library aiming to main bidirectionally convert between the binary MIDI to CSV.
+ 
  Use the package manager [pip](https://pip.pypa.io/en/stable/) to install prerequisites, Tkinter is part of the standart library. If you installed all packages alongside with Python 3 you should be able to use it.
 
 ```bash
 $ pip install py_midicsv
 ```
-## Authors
+## Author
 
 * **Mateo Sanabria Ardila** - [Masanar](https://github.com/Masanar)
