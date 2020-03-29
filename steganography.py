@@ -5,7 +5,7 @@ from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 
 # timidity was used for playing MIDI files while testing in linux
-# I am using >timidity example_converted.mid< in linux to play .mid files
+
 def midi_csv(filename):
     csv_string = py_midicsv.midi_to_csv(filename)
     count=0
